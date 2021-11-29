@@ -1,7 +1,6 @@
 import React, { Children } from 'react'
 import { useInView } from 'react-intersection-observer';
 import { motion } from "framer-motion/dist/framer-motion";
-import SplitTextJS from 'split-text-js';
 
 
 const transition = { duration: 0.6, ease: [0.6, 0.01, -0.05, 0.9] };
